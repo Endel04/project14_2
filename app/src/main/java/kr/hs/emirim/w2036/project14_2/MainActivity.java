@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     BroadcastReceiver br = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            
+            String action = intent.getAction();
         }
     };
 }
